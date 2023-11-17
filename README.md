@@ -37,8 +37,8 @@ npm run build
 
 ## Difficultés Rencontrées
 
-- Analyse détaillée du projet existant pour comprendre les fonctionnalités à reproduire.
 - Rétro-ingénierie et élaboration du schéma de composants pour architecturer la solution.
+- Déploiement via firebase que j'ai remplacé par un deploy sur vercel
 
 ## Réussites Constastées
 
@@ -52,5 +52,5 @@ npm run build
 
 ## Liens
 
-- Lien Firebase (prod) : [Ajouter le lien ici]
-- Lien GitHub : [Ajouter le lien ici]
+- Lien Vercel (replace:Firebase) (prod) : https://trello-ferway.vercel.app/
+- Lien GitHub : https://github.com/maximedotair/trello-ferway
