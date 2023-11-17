@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.react-responsive-modal-overlay {
+  background: rgba(0, 0, 0, 0.64) !important;
+}
+
+.react-responsive-modal-modal {
+  background-color: #f4f5f7 !important;
+  padding: 12px 24px !important;
+  border-radius: 3px;
+  max-width: 768px !important;
+  width: calc(100vw - 20px) !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  top: 0 !important;
+  margin: auto !important;
+  height: fit-content !important;
+  max-height: calc(100vh - 100px);
+}
+
+.react-responsive-modal-closeButton {
+  outline: none !important;
+  top: 5px !important;
+  right: 5px !important;
+  padding: 5px !important;
+  background: transparent;
+  border-radius: 100%;
+}
+
+.react-responsive-modal-closeButton:hover {
+  background: rgba(9, 30, 66, 0.08);
+}
+
+.react-responsive-modal-closeButton > svg {
+  width: 24px;
+  height: 24px;
+  fill: #313131 !important
+}
+
+.checkbox:before {
+  content:'';
+  -webkit-appearance: none;
+  border-radius: 3px;
+  background-color: #61bd4f;
+  padding: 12px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.checkbox:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  width: 6px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
