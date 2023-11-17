@@ -48,7 +48,7 @@ npm run build
 ## Axes d'Amélioration
 
 - Intégration d'une base de données pour la persistance des données utilisateur.
-- Optimisation de la responsivité et mise en place d'un système d'authentification pour les utilisateurs avec des fonctionnalités de connexion et d'inscription.
+- Optimisation du responsive et mise en place d'un système d'authentification pour les utilisateurs avec des fonctionnalités de connexion et d'inscription.
 
 ## Liens
 
